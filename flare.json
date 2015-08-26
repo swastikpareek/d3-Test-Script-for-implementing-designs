@@ -1,0 +1,46 @@
+{
+  "name": "flare",
+  "_children": [{
+    "name": "analytics",
+    "_children": [{
+      "name": "cluster",
+      "_children": [{
+        "name": "AgglomerativeCluster",
+        "size": 3938
+      }, {
+        "name": "CommunityStructure",
+        "size": 3812
+      }]
+    }, {
+      "name": "optimization",
+      "_children": [{
+        "name": "AspectRatioBanker",
+        "size": 7074
+      }, {
+        "name": "AspectRatioBanker",
+        "size": 70743
+      }]
+    }]
+  }, {
+    "name": "animate",
+    "_children": [{
+      "name": "FunctionSequence",
+      "_children": [{
+        "name": "ArrayInterpolator",
+        "size": 1983
+      }, {
+        "name": "ColorInterpolator",
+        "size": 2047
+      }]
+    }, {
+      "name": "interpolate",
+      "_children": [{
+        "name": "ArrayInterpolator",
+        "size": 1983
+      }, {
+        "name": "ColorInterpolator",
+        "size": 2047
+      }]
+    }]
+  }]
+}
