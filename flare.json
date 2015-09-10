@@ -1,46 +1,217 @@
 {
-  "name": "flare",
+  "name": "Hewlett Packerd",
   "_children": [{
-    "name": "analytics",
+    "name": "Consumer",
     "_children": [{
-      "name": "cluster",
+      "name": "Home office printing",
       "_children": [{
-        "name": "AgglomerativeCluster",
-        "size": 3938
+        "name": "Ink"
       }, {
-        "name": "CommunityStructure",
-        "size": 3812
+        "name": "Paper"
+      }, {
+        "name": "Fuser + Maintenance Kits"
+      }, {
+        "name": "Printing Apps"
+      }, {
+        "name": "Mobile Apps"
+      }, {
+        "name": "Programs"
       }]
     }, {
-      "name": "optimization",
+      "name": "Making + organizing content",
       "_children": [{
-        "name": "AspectRatioBanker",
-        "size": 7074
+        "name": "Photo sharing + printing"
       }, {
-        "name": "AspectRatioBanker",
-        "size": 70743
+        "name": "Music + video"
+      }]
+    }, {
+      "name": "Personal + family printing",
+      "_children": [{
+        "name": "Paper Handling"
       }]
     }]
   }, {
-    "name": "animate",
+    "name": "Small to medium business",
     "_children": [{
-      "name": "FunctionSequence",
+      "name": "Advising + managed services",
       "_children": [{
-        "name": "ArrayInterpolator",
-        "size": 1983
-      }, {
-        "name": "ColorInterpolator",
-        "size": 2047
+        "name": "Custom Subscription Services"
       }]
     }, {
-      "name": "interpolate",
+      "name": "Immersive computers"
+    }]
+  }, {
+    "name": "Large business",
+    "_children": [{
+      "name": "3D printing",
       "_children": [{
-        "name": "ArrayInterpolator",
-        "size": 1983
+        "name": "Solutions"
       }, {
-        "name": "ColorInterpolator",
-        "size": 2047
+        "name": "PC Services"
+      }, {
+        "name": "IT Investment and Consumption Model"
+      }, {
+        "name": "Custom Business Services"
+      }]
+    }, {
+      "name": "Everyday computers + tablets",
+      "_children": [{
+        "name": "Tablets \u0026 Phablets"
+      }, {
+        "name": "HP ProDesk"
+      }]
+    }, {
+      "name": "Graphics printing",
+      "_children": [{
+        "name": "Supplies + accessories"
+      }, {
+        "name": "Ink + Toner"
+      }, {
+        "name": "Paper + Printing Materials"
+      }, {
+        "name": "Large Format Displays"
+      }, {
+        "name": "Printers + presses"
+      }, {
+        "name": "RPOS Displays"
+      }, {
+        "name": "Print Media (large format)"
+      }, {
+        "name": "Print Layout Accessories"
+      }]
+    }, {
+      "name": "HP Mobile Connect Pro",
+      "_children": [{
+        "name": "Computers"
+      }]
+    }, {
+      "name": "Office printing + scanning",
+      "_children": [{
+        "name": "Displays Accessories"
+      }, {
+        "name": "Print Accessories"
+      }, {
+        "name": "Print Supplies"
+      }, {
+        "name": "Printers"
+      }, {
+        "name": "Printing Accessories"
+      }, {
+        "name": "Scanners"
+      }]
+    }, {
+      "name": "Optimizing marketing",
+      "_children": [{
+        "name": "Customer Communications"
+      }, {
+        "name": "High Volume Communications"
+      }, {
+        "name": "Digital Experience"
+      }, {
+        "name": "Digital Experience Management"
+      }, {
+        "name": "Content Distribution"
+      }, {
+        "name": "Rich Media Management"
+      }, {
+        "name": "Workforce Optimization"
+      }, {
+        "name": "Workforce Optimization (WFO)"
+      }, {
+        "name": "Voice of Customer (VoC) Insights"
+      }, {
+        "name": "Digital Engagement"
+      }, {
+        "name": "Augmented Reality"
+      }, {
+        "name": "Web Optimization"
+      }, {
+        "name": "Digital Analytics"
+      }, {
+        "name": "Process Automation"
+      }, {
+        "name": "Forms Processing: Document Capture and Recognition"
+      }, {
+        "name": "Forms Processing: Process Automation"
+      }]
+    }, {
+      "name": "Performance computers + tablets",
+      "_children": [{
+        "name": "Monitors"
+      }, {
+        "name": "Notebooks"
+      }, {
+        "name": "Wearables"
+      }, {
+        "name": "Desktops"
+      }, {
+        "name": "All-in-Ones"
+      }, {
+        "name": "Towers"
+      }, {
+        "name": "Accessories"
+      }, {
+        "name": "Mobility Cases"
+      }, {
+        "name": "Notebook Cases"
+      }, {
+        "name": "Mice + Keyboards"
+      }, {
+        "name": "Pens"
+      }, {
+        "name": "Audio"
+      }, {
+        "name": "Storage Products"
+      }, {
+        "name": "Camcorders"
+      }, {
+        "name": "Calculators"
+      }, {
+        "name": "Tablets"
+      }, {
+        "name": "Networking"
+      }, {
+        "name": "CD, DVD + Blu-Ray"
+      }, {
+        "name": "Specialty Products"
+      }, {
+        "name": "Connectivity"
+      }, {
+        "name": "Laptops"
+      }, {
+        "name": "Thin Client"
+      }, {
+        "name": "Device Management"
+      }, {
+        "name": "Workstations"
+      }, {
+        "name": "Retail Devices"
+      }]
+    }, {
+      "name": "Support",
+      "_children": [{
+        "name": "Computer + tablet services"
+      }, {
+        "name": "Included Product Support"
+      }, {
+        "name": "Care Pack"
+      }, {
+        "name": "One-on-one Assistance"
+      }, {
+        "name": "Installation Services"
+      }, {
+        "name": "Printer services"
+      }, {
+        "name": "Enhanced Protection"
+      }, {
+        "name": "User Support"
+      }, {
+        "name": "LanDesk"
+      }, {
+        "name": "Install + Setup"
       }]
     }]
+  }, {
+    "name": "Other"
   }]
 }

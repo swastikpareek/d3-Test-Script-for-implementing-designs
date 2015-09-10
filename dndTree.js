@@ -158,7 +158,7 @@ treeJSON = d3.json("flare.json", function(error, treeData) {
     };
     childCount(0, root);
     //Set height here
-    var newHeight = d3.max(levelWidth) * 100; // 50 pixels per line
+    var newHeight = d3.max(levelWidth) * 30; // 50 pixels per line
     tree = tree.size([newHeight, viewerWidth]);
 
     // Compute the new tree layout.
@@ -167,7 +167,7 @@ treeJSON = d3.json("flare.json", function(error, treeData) {
 
     // Set widths between levels based on maxLabelLength.
     nodes.forEach(function(d) { // Set width here
-      d.y = (d.depth * (maxLabelLength * 45)); //maxLabelLength * 10px
+      d.y = (d.depth * (maxLabelLength * 20)); //maxLabelLength * 10px
     });
 
     // Update the nodes…
@@ -179,6 +179,7 @@ treeJSON = d3.json("flare.json", function(error, treeData) {
     var nodeEnter = node.enter().append("g")
       .attr("class", "node")
       .attr("transform", function(d) {
+        console.log(source);
         return "translate(" + source.y0 + "," + source.x0 + ")";
       })
       .on('click', click);
